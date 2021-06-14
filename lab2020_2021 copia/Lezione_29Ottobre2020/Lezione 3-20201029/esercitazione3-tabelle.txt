@@ -1,0 +1,68 @@
+------------
+Esercizio 1
+
+insert into Studenti values(1234,'Rossi','Mario',20);
+insert into Studenti values(2345,'Verdi','Luca',21);
+insert into Studenti values(3456,'Bianchi','Maria',19);
+insert into Studenti values(4567,'Neri','Lucia',20);
+insert into Studenti values(5678,'Rossini','Laura',20);
+insert into Studenti values(6789,'Neri','Luca',20);
+insert into Studenti values(7890,'Rossi','Paolo',20);
+
+insert into Esami values(1,1234,'10/10/2015',24);
+insert into Esami values(2,2345,'12/10/2015',26);
+insert into Esami values(2,3456,'11/10/2015',29);
+insert into Esami values(1,4567,'10/10/2015',30);
+insert into Esami values(1,5678,'10/10/2015',28);
+insert into Esami values(2,1234,'13/10/2015',28);
+insert into Esami values(1,1234,'10/10/2014',15);
+insert into Esami values(2,3456,'11/10/2014',14);
+insert into Esami values(1,4567,'10/10/2014',16);
+insert into Esami values(1,5678,'10/10/2014',15);
+insert into Esami values(1,7890,'10/10/2014',18);
+insert into Esami values(3,5678,'10/10/2014',15);
+insert into Esami values(3,7890,'10/10/2014',15);
+insert into Esami values(3,2345,'10/10/2014',15);
+insert into Esami values(1,2345,'10/10/2014',18);
+
+-------------------------------------------------
+Esercizio 3
+
+insert into Persone values('1','Rossi','Matteo',21);
+insert into Persone values('2','Bianchi','Luca',22);
+insert into Persone values('3','Verdi','Laura',23);
+insert into Persone values('4','Neri','Sara',20);
+insert into Persone values('5','Rossi','Paolo',21);
+insert into Persone values('6','Bianchi','Pietro',21);
+insert into Persone values('7','Verdi','Giovanni',21);
+insert into Persone values('8','Neri','Anna',21);
+
+insert into immobili values ('id1','Cavour','1','Milano',60000);
+insert into immobili values ('id2','Italia','2','Roma',50000);
+insert into immobili values ('id3','Dante','3','Milano',30000);
+insert into immobili values ('id4','Manzoni','1','Roma',80000);
+insert into immobili values ('id5','Rossini','3','Catania',160000);
+insert into immobili values ('id6','Verdi','2','Catania',260000);
+insert into immobili values ('id7','Gramsci','1','Milano',360000);
+insert into immobili values ('id8','Mazzini','2','Milano',40000);
+insert into immobili values ('id9','Mauceri','2','Roma',90000);
+insert into immobili values ('id10','Pascoli','1','Varese',850000);
+insert into immobili values ('id11','Boccaccio','3','Varese',160000);
+
+insert into proprietà values('1','id1',50);
+insert into proprietà values('1','id2',100);
+insert into proprietà values('2','id1',50);
+insert into proprietà values('3','id3',50);
+insert into proprietà values('4','id1',50);
+insert into proprietà values('4','id5',100);
+insert into proprietà values('5','id6',50);
+insert into proprietà values('5','id7',100);
+insert into proprietà values('5','id8',100);
+insert into proprietà values('6','id9',100);
+insert into proprietà values('6','id4',50);
+insert into proprietà values('7','id10',100);
+insert into proprietà values('7','id11',100);
+insert into proprietà values('7','id6',50);
+insert into proprietà values('7','id4',50);
+insert into proprietà values('8','id3',50);
+
